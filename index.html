@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Speed Reader</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+
+<header>
+  <section class="display-inline portflio-image">
+    <button id="highScore" >High Score</button>
+  </section>
+  <section>
+    <h3 id="countdown"></h3>
+    </section>
+</header>
+<main>
+  <section class="container">
+    <section id="about-me-details" class="float-child-right">
+        <section id="quizDetails"><h3>Coding Quiz Challenge</h3>
+          <p> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds</p>
+          <button id="startQuiz" >Start Quiz!</button>
+        </section>
+        <section class="questions">
+          <p id="quizQuestion">Question</button></p>
+          <input type = "button" name = "radio1" id = "button1" placeholder="Your text"  class="quizBtn"></input> 
+          <input type = "button" name = "radio2" id = "button2" placeholder="Your text"  class="quizBtn"></input> 
+          <input type = "button" name = "radio3" id = "button3" placeholder="Your text"  class="quizBtn"></input> 
+          <input type = "button" name = "radio4" id = "button4" placeholder="Your text"  class="quizBtn"></input> 
+        </section> 
+        <span id="message"></span>  
+    </section>
+    
+  <section id="player-form" class="float-child-right">
+    <h3 id="player-form-h3">All done!!</h3>
+    <span id="scoreNum"></span>
+    <form id="form">
+    Enter Initials: <input type="text" id="player-name" placeholder="Initials" />
+    <button id="submit">Submit</button>
+    </form>
+  </section>      
+</main>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
